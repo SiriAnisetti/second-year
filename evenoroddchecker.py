@@ -3,7 +3,6 @@ def check_even_odd(num):
         print(f"{num} is even")
     else:
         print(f"{num} is odd") 
-    return None
 
 # Test the function
 check_even_odd(7) 
