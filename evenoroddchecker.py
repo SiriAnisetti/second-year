@@ -1,4 +1,5 @@
 def check_even_odd(num):
+    #Checking
     if num % 2 == 0:  
         print(f"{num} is even")
     else:
