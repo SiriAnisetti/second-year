@@ -6,5 +6,5 @@ def reverse_string(s):
 
 # Test the function
 print(reverse_string("Hacktoberfest"))  
-print(reverse_string(12345))         
+print(reverse_string("12345"))         
 print(reverse_string(""))             
