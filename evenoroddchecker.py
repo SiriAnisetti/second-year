@@ -5,6 +5,5 @@ def check_even_odd(num):
         print(num + " is odd") 
     return None
 
-# Test the function
 check_even_odd(7) 
 check_even_odd(-4)  
