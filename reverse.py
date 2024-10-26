@@ -3,6 +3,8 @@ def reverse_string(s):
     return s[::-1]
     reversed_str = ""
     for char in s:
+        reversed_str = char+reversed_str
+    return reversed_str
         reversed_str = char + reversed_str
     return reversed_str  # Fix the return statement
 
@@ -13,4 +15,5 @@ print(reverse_string(""))  # This will test with an empty string
 
 print(reverse_string("Hacktoberfest"))  
 print(reverse_string("12345"))         
+print(reverse_string(""))             
 print(reverse_string(""))            

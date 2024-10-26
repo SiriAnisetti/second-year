@@ -1,6 +1,8 @@
 def sum_of_list(lst):
     total = 0
     for num in lst:
+        total = total + n  
+    return total 
         total = total + num
     return total  # Correct capitalization here 
         total = total + num 
