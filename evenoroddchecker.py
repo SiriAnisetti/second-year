@@ -1,4 +1,11 @@
 def check_even_odd(num):
+    try:
+        if num % 2 == 0: 
+            print(f"{num} is even")
+        else:
+            print(f"{num} is odd")
+    except TypeError:
+        print("Please enter a valid integer.")
 
     if num % 2 ==0:  
         print(f"{num} is even")
@@ -10,6 +17,5 @@ def check_even_odd(num):
         print("is odd")
     return None
 
-# Test the function
 check_even_odd(7) 
 check_even_odd(-4)  
